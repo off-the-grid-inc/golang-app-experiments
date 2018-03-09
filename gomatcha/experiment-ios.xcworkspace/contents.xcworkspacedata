@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Matcha Experiment/Matcha Experiment.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../go/src/gomatcha.io/matcha/ios/Protobuf/Protobuf.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../go/src/gomatcha.io/matcha/ios/MatchaBridge/MatchaBridge.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../go/src/gomatcha.io/matcha/ios/Matcha/Matcha.xcodeproj">
+   </FileRef>
+</Workspace>

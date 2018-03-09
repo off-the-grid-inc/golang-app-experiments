@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		405A2C922052FBCB008EDF48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 405A2C912052FBCB008EDF48 /* AppDelegate.m */; };
+		405A2C952052FBCB008EDF48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 405A2C942052FBCB008EDF48 /* ViewController.m */; };
+		405A2C982052FBCB008EDF48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 405A2C962052FBCB008EDF48 /* Main.storyboard */; };
+		405A2C9A2052FBCB008EDF48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 405A2C992052FBCB008EDF48 /* Assets.xcassets */; };
+		405A2C9D2052FBCB008EDF48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 405A2C9B2052FBCB008EDF48 /* LaunchScreen.storyboard */; };
+		405A2CA02052FBCB008EDF48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 405A2C9F2052FBCB008EDF48 /* main.m */; };
+		405A2CAA2052FBCB008EDF48 /* Matcha_ExperimentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 405A2CA92052FBCB008EDF48 /* Matcha_ExperimentTests.m */; };
+		405A2CB52052FBCB008EDF48 /* Matcha_ExperimentUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 405A2CB42052FBCB008EDF48 /* Matcha_ExperimentUITests.m */; };
+		405A2CC32052FD9F008EDF48 /* Matcha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 405A2CC42052FD9F008EDF48 /* Matcha.framework */; };
+		405A2CC52052FDC0008EDF48 /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 405A2CC62052FDC0008EDF48 /* Protobuf.framework */; };
+		405A2CC72052FDC4008EDF48 /* MatchaBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 405A2CC82052FDC4008EDF48 /* MatchaBridge.framework */; };
+		405A2CCF2052FE3A008EDF48 /* Protobuf.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 405A2CC62052FDC0008EDF48 /* Protobuf.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		405A2CD02052FE3E008EDF48 /* MatchaBridge.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 405A2CC82052FDC4008EDF48 /* MatchaBridge.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		405A2CD12052FE41008EDF48 /* Matcha.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 405A2CC42052FD9F008EDF48 /* Matcha.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		405A2CA62052FBCB008EDF48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 405A2C852052FBCB008EDF48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 405A2C8C2052FBCB008EDF48;
+			remoteInfo = "Matcha Experiment";
+		};
+		405A2CB12052FBCB008EDF48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 405A2C852052FBCB008EDF48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 405A2C8C2052FBCB008EDF48;
+			remoteInfo = "Matcha Experiment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		405A2CC92052FDD1008EDF48 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				405A2CD12052FE41008EDF48 /* Matcha.framework in CopyFiles */,
+				405A2CD02052FE3E008EDF48 /* MatchaBridge.framework in CopyFiles */,
+				405A2CCF2052FE3A008EDF48 /* Protobuf.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		405A2C8D2052FBCB008EDF48 /* Matcha Experiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Matcha Experiment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		405A2C902052FBCB008EDF48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		405A2C912052FBCB008EDF48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		405A2C932052FBCB008EDF48 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		405A2C942052FBCB008EDF48 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		405A2C972052FBCB008EDF48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		405A2C992052FBCB008EDF48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		405A2C9C2052FBCB008EDF48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		405A2C9E2052FBCB008EDF48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		405A2C9F2052FBCB008EDF48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		405A2CA52052FBCB008EDF48 /* Matcha ExperimentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Matcha ExperimentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		405A2CA92052FBCB008EDF48 /* Matcha_ExperimentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Matcha_ExperimentTests.m; sourceTree = "<group>"; };
+		405A2CAB2052FBCB008EDF48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		405A2CB02052FBCB008EDF48 /* Matcha ExperimentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Matcha ExperimentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		405A2CB42052FBCB008EDF48 /* Matcha_ExperimentUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Matcha_ExperimentUITests.m; sourceTree = "<group>"; };
+		405A2CB62052FBCB008EDF48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		405A2CC42052FD9F008EDF48 /* Matcha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Matcha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		405A2CC62052FDC0008EDF48 /* Protobuf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Protobuf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		405A2CC82052FDC4008EDF48 /* MatchaBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MatchaBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		405A2C8A2052FBCB008EDF48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405A2CC32052FD9F008EDF48 /* Matcha.framework in Frameworks */,
+				405A2CC72052FDC4008EDF48 /* MatchaBridge.framework in Frameworks */,
+				405A2CC52052FDC0008EDF48 /* Protobuf.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		405A2CA22052FBCB008EDF48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		405A2CAD2052FBCB008EDF48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		405A2C842052FBCB008EDF48 = {
+			isa = PBXGroup;
+			children = (
+				405A2C8F2052FBCB008EDF48 /* Matcha Experiment */,
+				405A2CA82052FBCB008EDF48 /* Matcha ExperimentTests */,
+				405A2CB32052FBCB008EDF48 /* Matcha ExperimentUITests */,
+				405A2C8E2052FBCB008EDF48 /* Products */,
+				405A2CC22052FD9F008EDF48 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		405A2C8E2052FBCB008EDF48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				405A2C8D2052FBCB008EDF48 /* Matcha Experiment.app */,
+				405A2CA52052FBCB008EDF48 /* Matcha ExperimentTests.xctest */,
+				405A2CB02052FBCB008EDF48 /* Matcha ExperimentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		405A2C8F2052FBCB008EDF48 /* Matcha Experiment */ = {
+			isa = PBXGroup;
+			children = (
+				405A2C902052FBCB008EDF48 /* AppDelegate.h */,
+				405A2C912052FBCB008EDF48 /* AppDelegate.m */,
+				405A2C932052FBCB008EDF48 /* ViewController.h */,
+				405A2C942052FBCB008EDF48 /* ViewController.m */,
+				405A2C962052FBCB008EDF48 /* Main.storyboard */,
+				405A2C992052FBCB008EDF48 /* Assets.xcassets */,
+				405A2C9B2052FBCB008EDF48 /* LaunchScreen.storyboard */,
+				405A2C9E2052FBCB008EDF48 /* Info.plist */,
+				405A2C9F2052FBCB008EDF48 /* main.m */,
+			);
+			path = "Matcha Experiment";
+			sourceTree = "<group>";
+		};
+		405A2CA82052FBCB008EDF48 /* Matcha ExperimentTests */ = {
+			isa = PBXGroup;
+			children = (
+				405A2CA92052FBCB008EDF48 /* Matcha_ExperimentTests.m */,
+				405A2CAB2052FBCB008EDF48 /* Info.plist */,
+			);
+			path = "Matcha ExperimentTests";
+			sourceTree = "<group>";
+		};
+		405A2CB32052FBCB008EDF48 /* Matcha ExperimentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				405A2CB42052FBCB008EDF48 /* Matcha_ExperimentUITests.m */,
+				405A2CB62052FBCB008EDF48 /* Info.plist */,
+			);
+			path = "Matcha ExperimentUITests";
+			sourceTree = "<group>";
+		};
+		405A2CC22052FD9F008EDF48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				405A2CC82052FDC4008EDF48 /* MatchaBridge.framework */,
+				405A2CC62052FDC0008EDF48 /* Protobuf.framework */,
+				405A2CC42052FD9F008EDF48 /* Matcha.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		405A2C8C2052FBCB008EDF48 /* Matcha Experiment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 405A2CB92052FBCB008EDF48 /* Build configuration list for PBXNativeTarget "Matcha Experiment" */;
+			buildPhases = (
+				405A2C892052FBCB008EDF48 /* Sources */,
+				405A2C8A2052FBCB008EDF48 /* Frameworks */,
+				405A2C8B2052FBCB008EDF48 /* Resources */,
+				405A2CC92052FDD1008EDF48 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Matcha Experiment";
+			productName = "Matcha Experiment";
+			productReference = 405A2C8D2052FBCB008EDF48 /* Matcha Experiment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		405A2CA42052FBCB008EDF48 /* Matcha ExperimentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 405A2CBC2052FBCB008EDF48 /* Build configuration list for PBXNativeTarget "Matcha ExperimentTests" */;
+			buildPhases = (
+				405A2CA12052FBCB008EDF48 /* Sources */,
+				405A2CA22052FBCB008EDF48 /* Frameworks */,
+				405A2CA32052FBCB008EDF48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				405A2CA72052FBCB008EDF48 /* PBXTargetDependency */,
+			);
+			name = "Matcha ExperimentTests";
+			productName = "Matcha ExperimentTests";
+			productReference = 405A2CA52052FBCB008EDF48 /* Matcha ExperimentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		405A2CAF2052FBCB008EDF48 /* Matcha ExperimentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 405A2CBF2052FBCB008EDF48 /* Build configuration list for PBXNativeTarget "Matcha ExperimentUITests" */;
+			buildPhases = (
+				405A2CAC2052FBCB008EDF48 /* Sources */,
+				405A2CAD2052FBCB008EDF48 /* Frameworks */,
+				405A2CAE2052FBCB008EDF48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				405A2CB22052FBCB008EDF48 /* PBXTargetDependency */,
+			);
+			name = "Matcha ExperimentUITests";
+			productName = "Matcha ExperimentUITests";
+			productReference = 405A2CB02052FBCB008EDF48 /* Matcha ExperimentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		405A2C852052FBCB008EDF48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "OFF-THE-GRID";
+				TargetAttributes = {
+					405A2C8C2052FBCB008EDF48 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					405A2CA42052FBCB008EDF48 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 405A2C8C2052FBCB008EDF48;
+					};
+					405A2CAF2052FBCB008EDF48 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 405A2C8C2052FBCB008EDF48;
+					};
+				};
+			};
+			buildConfigurationList = 405A2C882052FBCB008EDF48 /* Build configuration list for PBXProject "Matcha Experiment" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 405A2C842052FBCB008EDF48;
+			productRefGroup = 405A2C8E2052FBCB008EDF48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				405A2C8C2052FBCB008EDF48 /* Matcha Experiment */,
+				405A2CA42052FBCB008EDF48 /* Matcha ExperimentTests */,
+				405A2CAF2052FBCB008EDF48 /* Matcha ExperimentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		405A2C8B2052FBCB008EDF48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405A2C9D2052FBCB008EDF48 /* LaunchScreen.storyboard in Resources */,
+				405A2C9A2052FBCB008EDF48 /* Assets.xcassets in Resources */,
+				405A2C982052FBCB008EDF48 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		405A2CA32052FBCB008EDF48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		405A2CAE2052FBCB008EDF48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		405A2C892052FBCB008EDF48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405A2C952052FBCB008EDF48 /* ViewController.m in Sources */,
+				405A2CA02052FBCB008EDF48 /* main.m in Sources */,
+				405A2C922052FBCB008EDF48 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		405A2CA12052FBCB008EDF48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405A2CAA2052FBCB008EDF48 /* Matcha_ExperimentTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		405A2CAC2052FBCB008EDF48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405A2CB52052FBCB008EDF48 /* Matcha_ExperimentUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		405A2CA72052FBCB008EDF48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 405A2C8C2052FBCB008EDF48 /* Matcha Experiment */;
+			targetProxy = 405A2CA62052FBCB008EDF48 /* PBXContainerItemProxy */;
+		};
+		405A2CB22052FBCB008EDF48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 405A2C8C2052FBCB008EDF48 /* Matcha Experiment */;
+			targetProxy = 405A2CB12052FBCB008EDF48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		405A2C962052FBCB008EDF48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				405A2C972052FBCB008EDF48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		405A2C9B2052FBCB008EDF48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				405A2C9C2052FBCB008EDF48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		405A2CB72052FBCB008EDF48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		405A2CB82052FBCB008EDF48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		405A2CBA2052FBCB008EDF48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P27SFHE4JR;
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1",
+				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Protobuf";
+				INFOPLIST_FILE = "Matcha Experiment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "off-the-grid-inc.Matcha-Experiment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		405A2CBB2052FBCB008EDF48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P27SFHE4JR;
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = "GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Protobuf";
+				INFOPLIST_FILE = "Matcha Experiment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "off-the-grid-inc.Matcha-Experiment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		405A2CBD2052FBCB008EDF48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Matcha ExperimentTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "off-the-grid-inc.Matcha-ExperimentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Matcha Experiment.app/Matcha Experiment";
+			};
+			name = Debug;
+		};
+		405A2CBE2052FBCB008EDF48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Matcha ExperimentTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "off-the-grid-inc.Matcha-ExperimentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Matcha Experiment.app/Matcha Experiment";
+			};
+			name = Release;
+		};
+		405A2CC02052FBCB008EDF48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Matcha ExperimentUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "off-the-grid-inc.Matcha-ExperimentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Matcha Experiment";
+			};
+			name = Debug;
+		};
+		405A2CC12052FBCB008EDF48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Matcha ExperimentUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "off-the-grid-inc.Matcha-ExperimentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Matcha Experiment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		405A2C882052FBCB008EDF48 /* Build configuration list for PBXProject "Matcha Experiment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				405A2CB72052FBCB008EDF48 /* Debug */,
+				405A2CB82052FBCB008EDF48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		405A2CB92052FBCB008EDF48 /* Build configuration list for PBXNativeTarget "Matcha Experiment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				405A2CBA2052FBCB008EDF48 /* Debug */,
+				405A2CBB2052FBCB008EDF48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		405A2CBC2052FBCB008EDF48 /* Build configuration list for PBXNativeTarget "Matcha ExperimentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				405A2CBD2052FBCB008EDF48 /* Debug */,
+				405A2CBE2052FBCB008EDF48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		405A2CBF2052FBCB008EDF48 /* Build configuration list for PBXNativeTarget "Matcha ExperimentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				405A2CC02052FBCB008EDF48 /* Debug */,
+				405A2CC12052FBCB008EDF48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 405A2C852052FBCB008EDF48 /* Project object */;
+}
