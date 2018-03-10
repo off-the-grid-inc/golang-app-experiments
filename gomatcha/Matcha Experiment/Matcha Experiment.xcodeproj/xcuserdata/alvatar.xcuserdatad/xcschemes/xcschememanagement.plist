@@ -7,7 +7,25 @@
 		<key>Matcha Experiment.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>405A2C8C2052FBCB008EDF48</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>405A2CA42052FBCB008EDF48</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>405A2CAF2052FBCB008EDF48</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

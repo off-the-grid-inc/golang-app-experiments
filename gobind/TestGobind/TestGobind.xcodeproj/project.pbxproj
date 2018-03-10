@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40F9C3AC2054533E00322518 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F9C3AB2054533E00322518 /* AppDelegate.m */; };
+		40F9C3AF2054533E00322518 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F9C3AE2054533E00322518 /* ViewController.m */; };
+		40F9C3B22054533E00322518 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40F9C3B02054533E00322518 /* Main.storyboard */; };
+		40F9C3B42054533E00322518 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40F9C3B32054533E00322518 /* Assets.xcassets */; };
+		40F9C3B72054533E00322518 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40F9C3B52054533E00322518 /* LaunchScreen.storyboard */; };
+		40F9C3BA2054533E00322518 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F9C3B92054533E00322518 /* main.m */; };
+		40F9C3C42054533E00322518 /* TestGobindTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F9C3C32054533E00322518 /* TestGobindTests.m */; };
+		40F9C3CF2054533E00322518 /* TestGobindUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F9C3CE2054533E00322518 /* TestGobindUITests.m */; };
+		40F9C3DD2054535500322518 /* Gobind.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F9C3DC2054535500322518 /* Gobind.framework */; };
+		40F9C3E12054561400322518 /* TestGobindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F9C3DF2054561400322518 /* TestGobindViewController.m */; };
+		40F9C3E22054561400322518 /* TestGobindViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40F9C3E02054561400322518 /* TestGobindViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40F9C3C02054533E00322518 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40F9C39F2054533E00322518 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40F9C3A62054533E00322518;
+			remoteInfo = TestGobind;
+		};
+		40F9C3CB2054533E00322518 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40F9C39F2054533E00322518 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40F9C3A62054533E00322518;
+			remoteInfo = TestGobind;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40F9C3A72054533E00322518 /* TestGobind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGobind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40F9C3AA2054533E00322518 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		40F9C3AB2054533E00322518 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		40F9C3AD2054533E00322518 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		40F9C3AE2054533E00322518 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		40F9C3B12054533E00322518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40F9C3B32054533E00322518 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40F9C3B62054533E00322518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40F9C3B82054533E00322518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40F9C3B92054533E00322518 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		40F9C3BF2054533E00322518 /* TestGobindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestGobindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40F9C3C32054533E00322518 /* TestGobindTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestGobindTests.m; sourceTree = "<group>"; };
+		40F9C3C52054533E00322518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40F9C3CA2054533E00322518 /* TestGobindUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestGobindUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40F9C3CE2054533E00322518 /* TestGobindUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestGobindUITests.m; sourceTree = "<group>"; };
+		40F9C3D02054533E00322518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40F9C3DC2054535500322518 /* Gobind.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Gobind.framework; path = ../Gobind.framework; sourceTree = "<group>"; };
+		40F9C3DE2054561400322518 /* TestGobindViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestGobindViewController.h; sourceTree = "<group>"; };
+		40F9C3DF2054561400322518 /* TestGobindViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestGobindViewController.m; sourceTree = "<group>"; };
+		40F9C3E02054561400322518 /* TestGobindViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestGobindViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40F9C3A42054533E00322518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F9C3DD2054535500322518 /* Gobind.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40F9C3BC2054533E00322518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40F9C3C72054533E00322518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40F9C39E2054533E00322518 = {
+			isa = PBXGroup;
+			children = (
+				40F9C3DC2054535500322518 /* Gobind.framework */,
+				40F9C3A92054533E00322518 /* TestGobind */,
+				40F9C3C22054533E00322518 /* TestGobindTests */,
+				40F9C3CD2054533E00322518 /* TestGobindUITests */,
+				40F9C3A82054533E00322518 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40F9C3A82054533E00322518 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40F9C3A72054533E00322518 /* TestGobind.app */,
+				40F9C3BF2054533E00322518 /* TestGobindTests.xctest */,
+				40F9C3CA2054533E00322518 /* TestGobindUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40F9C3A92054533E00322518 /* TestGobind */ = {
+			isa = PBXGroup;
+			children = (
+				40F9C3AA2054533E00322518 /* AppDelegate.h */,
+				40F9C3AB2054533E00322518 /* AppDelegate.m */,
+				40F9C3AD2054533E00322518 /* ViewController.h */,
+				40F9C3AE2054533E00322518 /* ViewController.m */,
+				40F9C3B02054533E00322518 /* Main.storyboard */,
+				40F9C3B32054533E00322518 /* Assets.xcassets */,
+				40F9C3B52054533E00322518 /* LaunchScreen.storyboard */,
+				40F9C3B82054533E00322518 /* Info.plist */,
+				40F9C3B92054533E00322518 /* main.m */,
+				40F9C3DE2054561400322518 /* TestGobindViewController.h */,
+				40F9C3DF2054561400322518 /* TestGobindViewController.m */,
+				40F9C3E02054561400322518 /* TestGobindViewController.xib */,
+			);
+			path = TestGobind;
+			sourceTree = "<group>";
+		};
+		40F9C3C22054533E00322518 /* TestGobindTests */ = {
+			isa = PBXGroup;
+			children = (
+				40F9C3C32054533E00322518 /* TestGobindTests.m */,
+				40F9C3C52054533E00322518 /* Info.plist */,
+			);
+			path = TestGobindTests;
+			sourceTree = "<group>";
+		};
+		40F9C3CD2054533E00322518 /* TestGobindUITests */ = {
+			isa = PBXGroup;
+			children = (
+				40F9C3CE2054533E00322518 /* TestGobindUITests.m */,
+				40F9C3D02054533E00322518 /* Info.plist */,
+			);
+			path = TestGobindUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40F9C3A62054533E00322518 /* TestGobind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40F9C3D32054533E00322518 /* Build configuration list for PBXNativeTarget "TestGobind" */;
+			buildPhases = (
+				40F9C3A32054533E00322518 /* Sources */,
+				40F9C3A42054533E00322518 /* Frameworks */,
+				40F9C3A52054533E00322518 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestGobind;
+			productName = TestGobind;
+			productReference = 40F9C3A72054533E00322518 /* TestGobind.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40F9C3BE2054533E00322518 /* TestGobindTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40F9C3D62054533E00322518 /* Build configuration list for PBXNativeTarget "TestGobindTests" */;
+			buildPhases = (
+				40F9C3BB2054533E00322518 /* Sources */,
+				40F9C3BC2054533E00322518 /* Frameworks */,
+				40F9C3BD2054533E00322518 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40F9C3C12054533E00322518 /* PBXTargetDependency */,
+			);
+			name = TestGobindTests;
+			productName = TestGobindTests;
+			productReference = 40F9C3BF2054533E00322518 /* TestGobindTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40F9C3C92054533E00322518 /* TestGobindUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40F9C3D92054533E00322518 /* Build configuration list for PBXNativeTarget "TestGobindUITests" */;
+			buildPhases = (
+				40F9C3C62054533E00322518 /* Sources */,
+				40F9C3C72054533E00322518 /* Frameworks */,
+				40F9C3C82054533E00322518 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40F9C3CC2054533E00322518 /* PBXTargetDependency */,
+			);
+			name = TestGobindUITests;
+			productName = TestGobindUITests;
+			productReference = 40F9C3CA2054533E00322518 /* TestGobindUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40F9C39F2054533E00322518 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "OFF-THE-GRID";
+				TargetAttributes = {
+					40F9C3A62054533E00322518 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					40F9C3BE2054533E00322518 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 40F9C3A62054533E00322518;
+					};
+					40F9C3C92054533E00322518 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 40F9C3A62054533E00322518;
+					};
+				};
+			};
+			buildConfigurationList = 40F9C3A22054533E00322518 /* Build configuration list for PBXProject "TestGobind" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40F9C39E2054533E00322518;
+			productRefGroup = 40F9C3A82054533E00322518 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40F9C3A62054533E00322518 /* TestGobind */,
+				40F9C3BE2054533E00322518 /* TestGobindTests */,
+				40F9C3C92054533E00322518 /* TestGobindUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40F9C3A52054533E00322518 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F9C3B72054533E00322518 /* LaunchScreen.storyboard in Resources */,
+				40F9C3B42054533E00322518 /* Assets.xcassets in Resources */,
+				40F9C3B22054533E00322518 /* Main.storyboard in Resources */,
+				40F9C3E22054561400322518 /* TestGobindViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40F9C3BD2054533E00322518 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40F9C3C82054533E00322518 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40F9C3A32054533E00322518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F9C3AF2054533E00322518 /* ViewController.m in Sources */,
+				40F9C3BA2054533E00322518 /* main.m in Sources */,
+				40F9C3AC2054533E00322518 /* AppDelegate.m in Sources */,
+				40F9C3E12054561400322518 /* TestGobindViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40F9C3BB2054533E00322518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F9C3C42054533E00322518 /* TestGobindTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40F9C3C62054533E00322518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F9C3CF2054533E00322518 /* TestGobindUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40F9C3C12054533E00322518 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40F9C3A62054533E00322518 /* TestGobind */;
+			targetProxy = 40F9C3C02054533E00322518 /* PBXContainerItemProxy */;
+		};
+		40F9C3CC2054533E00322518 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40F9C3A62054533E00322518 /* TestGobind */;
+			targetProxy = 40F9C3CB2054533E00322518 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40F9C3B02054533E00322518 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40F9C3B12054533E00322518 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40F9C3B52054533E00322518 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40F9C3B62054533E00322518 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40F9C3D12054533E00322518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		40F9C3D22054533E00322518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40F9C3D42054533E00322518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P27SFHE4JR;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "${PROJECT_DIR}/..";
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/../Gobind.framework/Headers";
+				INFOPLIST_FILE = TestGobind/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "off-the-grid-inc.TestGobind";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40F9C3D52054533E00322518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P27SFHE4JR;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "${PROJECT_DIR}/..";
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/../Gobind.framework/Headers";
+				INFOPLIST_FILE = TestGobind/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "off-the-grid-inc.TestGobind";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		40F9C3D72054533E00322518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P27SFHE4JR;
+				INFOPLIST_FILE = TestGobindTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "off-the-grid-inc.TestGobindTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestGobind.app/TestGobind";
+			};
+			name = Debug;
+		};
+		40F9C3D82054533E00322518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P27SFHE4JR;
+				INFOPLIST_FILE = TestGobindTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "off-the-grid-inc.TestGobindTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestGobind.app/TestGobind";
+			};
+			name = Release;
+		};
+		40F9C3DA2054533E00322518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P27SFHE4JR;
+				INFOPLIST_FILE = TestGobindUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "off-the-grid-inc.TestGobindUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestGobind;
+			};
+			name = Debug;
+		};
+		40F9C3DB2054533E00322518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P27SFHE4JR;
+				INFOPLIST_FILE = TestGobindUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "off-the-grid-inc.TestGobindUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestGobind;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40F9C3A22054533E00322518 /* Build configuration list for PBXProject "TestGobind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40F9C3D12054533E00322518 /* Debug */,
+				40F9C3D22054533E00322518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40F9C3D32054533E00322518 /* Build configuration list for PBXNativeTarget "TestGobind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40F9C3D42054533E00322518 /* Debug */,
+				40F9C3D52054533E00322518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40F9C3D62054533E00322518 /* Build configuration list for PBXNativeTarget "TestGobindTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40F9C3D72054533E00322518 /* Debug */,
+				40F9C3D82054533E00322518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40F9C3D92054533E00322518 /* Build configuration list for PBXNativeTarget "TestGobindUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40F9C3DA2054533E00322518 /* Debug */,
+				40F9C3DB2054533E00322518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40F9C39F2054533E00322518 /* Project object */;
+}

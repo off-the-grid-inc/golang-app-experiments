@@ -1,0 +1,8 @@
+framework module "Gobind" {
+	header "ref.h"
+    header "Gobind.objc.h"
+    header "Universe.objc.h"
+    header "Gobind.h"
+
+    export *
+}
