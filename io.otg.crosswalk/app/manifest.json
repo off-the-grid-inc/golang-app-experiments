@@ -1,0 +1,28 @@
+{
+  "name": "io.otg.crosswalk",
+  "short_name": "crosswalk",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "any",
+  "start_url": "index.html",
+  "xwalk_app_version": "0.1",
+  "xwalk_command_line": "",
+  "xwalk_package_id": "io.otg.crosswalk",
+  "xwalk_target_platforms": [
+    "ios"
+  ],
+  "xwalk_android_animatable_view": false,
+  "xwalk_android_keep_screen_on": false,
+  "xwalk_android_permissions": [
+    "ACCESS_NETWORK_STATE",
+    "ACCESS_WIFI_STATE",
+    "INTERNET"
+  ],
+  "xwalk_windows_update_id": "98824344-9158-9593-7712-174079042084",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "72x72"
+    }
+  ]
+}
